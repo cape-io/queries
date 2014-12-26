@@ -1,0 +1,28 @@
+{
+  "name": "queries",
+  "version": "0.0.1",
+  "description": "Really simple data collection plucking and manipulation",
+  "main": "lib/queries.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cape-io/queries"
+  },
+  "author": "Kai Curry <kai@cape.io> (http://www.cape.io/)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cape-io/queries/issues"
+  },
+  "homepage": "https://github.com/cape-io/queries",
+  "dependencies": {
+    "lodash": "2.x",
+    "object-path": "0.8.x"
+  },
+  "devDependencies": {
+    "mocha": "1.x",
+    "chai": "1.x",
+    "coffee-script": "1.x"
+  }
+}
