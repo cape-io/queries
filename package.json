@@ -1,10 +1,11 @@
 {
   "name": "queries",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "description": "Really simple data collection plucking and manipulation",
   "main": "lib/queries.js",
   "scripts": {
-    "test": "mocha"
+    "test": "mocha --compilers coffee:coffee-script/register",
+    "prepublish": "coffee -o lib -c src/*.coffee"
   },
   "repository": {
     "type": "git",

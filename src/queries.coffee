@@ -5,9 +5,9 @@ deep = require('object-path')
 # Works as a replacement for 'pick' too.
 _.pluck = (items, pluck) ->
   unless _.isObject(items) and pluck
-    return info
+    return items
 
-  pluckMany = (item) ->
+  pluckMany = (item) -> # {oldKey: newKey}
     if _.isString pluck
       return deep.get item, pluck
     newObj = {}
