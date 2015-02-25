@@ -1,6 +1,6 @@
 {
   "name": "queries",
-  "version": "0.0.3",
+  "version": "0.1.0",
   "description": "Really simple data collection plucking and manipulation",
   "main": "lib/queries.js",
   "scripts": {
@@ -18,7 +18,7 @@
   },
   "homepage": "https://github.com/cape-io/queries",
   "dependencies": {
-    "lodash": "2.x",
+    "lodash": "3.x",
     "object-path": "0.8.x"
   },
   "devDependencies": {
